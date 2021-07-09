@@ -1,0 +1,205 @@
+body{
+	background-image: url(https://image.freepik.com/free-vector/abstract-white-shapes-background_79603-1362.jpg) ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+#header_table th{
+	text-align: center;
+	font-size: 2vw;
+	width: 10vw
+	
+}
+#header_table  {
+	margin-right: 0;
+	margin-left: auto;
+	padding: 1vw;
+	
+}
+
+#profile_img{
+	height:  20vw;
+	width: 20vw;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: 0 .01vw;
+	padding: 2vw;
+
+
+}
+p.head{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 4vw;
+	text-align: center;
+	
+}
+p.skills-hobbies{
+	text-indent: 10vw;
+	color: rgb(255, 174, 0);
+	font-family: 'Sacramento', cursive;
+	font-size: 2vw;
+	text-align: justify;
+
+}
+div.left{
+	width: 40%;
+	float :left;
+	padding: 2vw;
+	margin: 2vw;
+
+	
+}
+div.right{
+	width: 40%;
+	float :right;
+	padding: 2vw;
+	margin: 2vw;
+
+	
+
+}
+img{
+	height:  2vw;
+	width: 2vw;
+	border-radius: 50%;
+	object-fit: cover;
+
+
+}
+input, textarea {
+	border:0; outline:0;
+	padding: 1em;
+	border-radius: 8px;
+	display: block;
+	width: 100%;
+	margin-top: 1em;
+	 box-shadow : (0 1px 1px rgba(black, 0.1));
+	resize: none;
+
+   
+ }
+
+span.hello {
+	font-size: 10vw;
+	font-family: 'Sacramento', cursive;
+	font-style: italic;
+	padding-left: 10vw;
+  }
+
+
+p.index_img	{
+	text-indent: 0;
+}
+p.index_intro	{
+	font-size: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	text-align: justify;
+	
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+  }
+a:visited {
+	color: black;
+	text-decoration: none;
+  }
+ a:hover {
+	color: green;
+	text-decoration: none;
+  }
+a:active {
+	color: blue;
+	text-decoration: none;
+  }
+  
+.desc{
+	margin-left: 20vw;
+	display: block;
+	justify-content: center;
+
+}
+
+
+li {
+	position: relative;
+	margin: 0;
+	text-align: justify;
+	padding-bottom: 1em;
+	padding-left: 20px;
+	padding-right: 5vw;
+  }
+li:before {
+	background-color: rgb(0, 204, 27);
+	width: 2px;
+	content: '';
+	position: absolute;
+	top: 28px;
+	bottom: -38px;
+	left: -12px;
+  }  
+
+div.msg-1{
+	  font-size: xx-large;
+  }
+
+div.msg-2{
+	font-size: x-large;
+	color: green;
+}
+div.msg-3{
+	font-size: x-large;
+	color: rgb(22, 84, 92);
+}
+
+
+
+
+.toCenter {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-container {
+	margin: auto;
+	display: grid;
+	grid-template-columns: 0.33fr 1fr;
+	width: 80%;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px rgba(black, 0.7);
+
+	
+
+		}
+.zone-1 {
+	padding: 40px 20px;
+	padding-left: 35px;
+	background: #d1d1d1;
+	width: 100%;
+	color: #313131;
+}
+.zone-2 {
+	background: #2c2b29;
+	padding: 40px 20px;
+	padding-right: 75px;
+	color: lighten(#9c9c9a, 10%);
+}
+
+.dot {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		background-color: #313131;
+		border-radius: 50%;
+		margin-left: 4px;
+	}
+.active {
+			background-color: rgb(195, 255, 0);
+		
+	}
